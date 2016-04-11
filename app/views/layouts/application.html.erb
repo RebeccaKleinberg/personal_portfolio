@@ -25,6 +25,16 @@
   </div> <%# container %>
 </div> <%# header %>
 <%= yield %>
-
+<div class="footer">
+  <div class="container">
+    <div class="footer-menu">
+      <ul>
+        <li><%= link_to(image_tag("github.png", title: "github"), "https://github.com/RebeccaKleinberg") %></li>
+        <li><%= link_to(image_tag("twitter.png", title: "twitter"), "https://twitter.com/Rebecca_BK") %></li>
+        <li><%= link_to(image_tag("linkedin.png", title: "linkedin"), "https://www.linkedin.com/in/rebeccakleinberg") %></li>
+      </ul>
+    </div>
+  </div>
+</div> <%# footer %>
 </body>
 </html>
